@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 1</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container flex flex-col items-center justify-center min-w-full min-h-screen border ">
+        <div class="flex items-center">
+            <div class="flex justify-center items-center">
+                <p class="number cursor-pointer  border-4 border-blue-500 w-8 h-8 rounded-full flex justify-center items-center text-gray-500" data-target="col">1</p>
+            </div>
+            <div class="progress-container">
+                <div class="progress-bar"></div>
+            </div>
+            <div class="flex">
+                <p class="number cursor-pointer  border-4 border-blue-500 w-8 h-8 rounded-full flex justify-center items-center text-gray-500" data-target="col">2</p>
+            </div>
+            <div class="progress-container">
+                <div class="progress-bar"></div>
+            </div>
+            <div class="flex">
+                <p class="number cursor-pointer  border-4 border-blue-500 w-8 h-8 rounded-full flex justify-center items-center text-gray-500" data-target="col">3</p>
+            </div>
+            <div class="progress-container">
+                <div class="progress-bar"></div>
+            </div>
+            <div class="flex">
+                <p class="number cursor-pointer  border-4 border-blue-500 w-8 h-8 rounded-full flex justify-center items-center text-gray-500" data-target="col">4</p>
+            </div>
+        </div>
+        <div class="flex mt-12">
+            <div class="mr-4 bg-blue-400 px-2 py-1 rounded-md text-white">
+                <button id="prev">Anterior</button>
+            </div>
+            <div class="mr-4 bg-blue-400 px-2 py-1 rounded-md text-white">
+                <button id="next">Siguiente</button>
+            </div>
+        </div>
+    </div>
+    
+    
+    <script src="app.js"></script>
+</body>
+</html>

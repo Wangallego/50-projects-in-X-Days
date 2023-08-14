@@ -1,0 +1,19 @@
+.progress-container {
+    display: flex;
+    align-items: center;
+    position: relative;
+    width: 6rem; /* Ancho del hr original */
+    height: 6px; /* Alto del hr original */
+    background-color: rgba(128, 128, 128, 0.568);
+
+}
+
+.progress-bar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background-color: #3b82f6; /* Color de fondo deseado */
+    transition: width 0.4s ease; /* Transición de animación */
+}
