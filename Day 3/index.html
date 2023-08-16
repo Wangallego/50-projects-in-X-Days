@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nav Rotativa</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+
+</head>
+
+<body class="bg-gray-200 w-full h-full ">
+  <nav class="overflow-hidden">
+    <div class="bg-blue-500 w-[5%] py-10 px-28 flex justify-left items-left -ml-32 -mt-4 rounded-b-full z-20 fixed">
+      <button id="button">
+        <ion-icon name="menu" class=" ml-8 w-[2rem] h-[1.5rem]"></ion-icon>
+      </button>
+    </div>
+    
+    <aside class="bg-gray-700  h-full z-0">
+      <ul class="flex flex-col justify-center space-y-4 font-bold text-md mx-4 mb-4">
+        <li>
+          <i></i>
+          <a href="">Home</a>
+        </li>
+        <li>
+          <i></i>
+          <a href="">About</a>
+        </li>
+        <li>
+          <i></i>
+          <a href="">Contact</a>
+        </li>
+      </ul>
+    </aside>
+    
+  </nav>
+
+
+  <main class="flex-col justify-center items-center w-[100%] h-full fixed bg-gray-200 z-10  transition transform duration-700 origin-top-left relative" id="main-content"> <!-- relatiive: scroll-->
+
+    <div class="mx-[12rem]">
+      <h1 class="text-4xl font-bold">The Best Web</h1>
+      <small class="text-gray-400 font-bold ">@WanGallego</small>
+    </div>
+    <article class="text-gray-600 text-justify flex justify-center items-center mx-[12rem]">
+
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate voluptas quam tempora officiis incidunt
+        architecto
+        sit aspernatur eum. Assumenda quam nihil laborum praesentium quibusdam, accusantium ullam quasi iste corporis
+        aliquid.
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Est provident laboriosam sapiente suscipit fugit rerum
+        dolorum
+        autem commodi cupiditate facere error eligendi, tenetur tempore excepturi iusto corporis tempora repellendus.
+        Ab.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate voluptas quam tempora officiis incidunt
+        architecto
+        sit aspernatur eum. Assumenda quam nihil laborum praesentium quibusdam, accusantium ullam quasi iste corporis
+        aliquid.
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Est provident laboriosam sapiente suscipit fugit rerum
+        dolorum
+        autem commodi cupiditate facere error eligendi, tenetur tempore excepturi iusto corporis tempora repellendus.
+        Ab.
+      </p>
+    </article>
+    <div class="flex flex-col mt-10 mx-[12rem]">
+      <h2 class="text-xl font-bold">My Cat</h2>
+      <small class="text-gray-400 font-bold ml-"> R</small>
+    </div>
+    <article class="flex flex-col justify-center items-center text-gray-600 text-justify mx-[12rem]">
+      <img src="https://cdn.pixabay.com/photo/2016/07/10/21/47/cat-1508613_640.jpg" alt="gato"
+        class="mt-4 mb-10 rounded-md w-full">
+      <p class="mb-10">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam, laudantium sit? Nostrum dolorum soluta
+        distinctio,
+        ipsum animi nihil numquam facilis dolorem fugiat, quidem possimus, saepe quam dicta eius illo ea! Lorem ipsum
+        dolor
+        sit, amet consectetur adipisicing elit. Odio voluptatibus voluptatem officia corrupti omnis minima ratione sed,
+        fugit,
+        dolor numquam qui. Enim nihil adipisci, nobis totam asperiores est repudiandae ipsum.
+      </p>
+    </article>
+    
+    
+  </main>
+
+  <script src="app.js"></script>
+</body>
+
+</html>

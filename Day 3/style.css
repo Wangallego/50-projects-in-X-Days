@@ -1,0 +1,15 @@
+aside {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: flex-end;
+    justify-content: left;
+    background-color: #333; /* Color de fondo para el ejemplo */
+    color: white; /* Color del texto para el ejemplo */
+  }
+
